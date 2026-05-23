@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { X, CheckCircle, Calendar, ShieldCheck, Mail, Phone, MapPin, Loader2, Sparkles } from "lucide-react";
+import { X, CircleCheck as CheckCircle, Calendar, ShieldCheck, Mail, Phone, MapPin, Loader as Loader2, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface BookingModalProps {

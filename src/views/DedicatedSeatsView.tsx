@@ -1,5 +1,9 @@
 import React from "react";
-import { CheckCircle2, ShieldCheck, ArrowRight, Table, Info, Activity, Clock, Coffee, ShieldAlert, Cpu } from "lucide-react";
+import { CircleCheck as CheckCircle2, ShieldCheck, ArrowRight, Table, Info, Activity, Clock, Coffee, ShieldAlert, Cpu } from "lucide-react";
+
+import imgMeetingRoom from "../assets/images/gurgaon_meeting_room_1779398546797.png";
+import imgDedicatedDesks from "../assets/images/gurgaon_dedicated_desks_1779398569488.png";
+import imgOpenWorkspace from "../assets/images/gurgaon_open_workspace_1779398526846.png";
 
 interface DedicatedSeatsViewProps {
   onNavigate: (view: string, prefill?: string) => void;
@@ -15,7 +19,7 @@ export default function DedicatedSeatsView({ onNavigate, onEnquire }: DedicatedS
       price: "₹18,000",
       billing: "/cabin/mo",
       description: "Sound-insulated glass partitions with independent biometric lock access, integrated presentation displays, and customizable executive layout boards.",
-      image: "/src/assets/images/gurgaon_meeting_room_1779398546797.png",
+      image: imgMeetingRoom,
       capacityInfo: "Configurable for 2 to 12 executives. Ideal for law firms, finance, and technical directs.",
       perks: [
         "Private lockable double pedestal filing units",
@@ -33,7 +37,7 @@ export default function DedicatedSeatsView({ onNavigate, onEnquire }: DedicatedS
       price: "₹8,000",
       billing: "/desk/mo",
       description: "Your assigned corporate single desk configuration. Walk in daily to find your workstation layout exactly as you left it—monitors, accessories, and locks ready.",
-      image: "/src/assets/images/gurgaon_dedicated_desks_1779398569488.png",
+      image: imgDedicatedDesks,
       capacityInfo: "1 assigned ergonomic workstation. Perfect for regular independent engineers and remote consultants.",
       perks: [
         "Herman Miller high-back ergonomic lumbar chair",
@@ -51,7 +55,7 @@ export default function DedicatedSeatsView({ onNavigate, onEnquire }: DedicatedS
       price: "₹5,500",
       billing: "/desk/mo",
       description: "Unrestricted hot desking in our shared DLF CyberCity lounge library. High-design common table setups with multiple charging terminals and premium breakout zones.",
-      image: "/src/assets/images/gurgaon_open_workspace_1779398526846.png",
+      image: imgOpenWorkspace,
       capacityInfo: "Flexible common area seating. Suited for mobile freelancers and modern business travellers.",
       perks: [
         "24/7 common desk lobby access limits",

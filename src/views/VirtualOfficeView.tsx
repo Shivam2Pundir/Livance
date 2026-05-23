@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Check, ArrowRight, ShieldCheck, HelpCircle, CheckCircle2, ChevronDown, ChevronRight, FileText, ClipboardCheck, Mail, Sparkles } from "lucide-react";
+import { Check, ArrowRight, ShieldCheck, Circle as HelpCircle, CircleCheck as CheckCircle2, ChevronDown, ChevronRight, FileText, ClipboardCheck, Mail, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface VirtualOfficeViewProps {

@@ -1,28 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { 
-  Check, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Building2, 
-  ShieldCheck, 
-  HelpCircle, 
-  Star, 
-  Sparkles, 
-  MessageSquare, 
-  ArrowRight, 
-  User, 
-  Briefcase, 
-  CheckCircle, 
-  HeartHandshake,
-  Clock,
-  ArrowUpRight,
-  TrendingUp,
-  Award,
-  Menu,
-  X,
-  Compass
-} from "lucide-react";
+import { Check, Mail, Phone, MapPin, Building2, ShieldCheck, Circle as HelpCircle, Star, Sparkles, MessageSquare, ArrowRight, User, Briefcase, CircleCheck as CheckCircle, HeartHandshake, Clock, ArrowUpRight, TrendingUp, Award, Menu, X, Compass } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import LivanceWordmark from "./components/LivanceWordmark";
 import BookingModal from "./components/BookingModal";

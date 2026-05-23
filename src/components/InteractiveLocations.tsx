@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, Phone, Mail, CheckCircle2, Building, ShieldCheck, ArrowUpRight, Sparkles, Clock, Calendar, MailOpen } from "lucide-react";
+import { MapPin, Phone, Mail, CircleCheck as CheckCircle2, Building, ShieldCheck, ArrowUpRight, Sparkles, Clock, Calendar, MailOpen } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface InteractiveLocationsProps {

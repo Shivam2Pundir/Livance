@@ -1,5 +1,5 @@
 import React from "react";
-import { Sparkles, ArrowRight, Award, TrendingUp, Star, ShieldCheck, CheckCircle2, ChevronRight, Building, Check, Clock } from "lucide-react";
+import { Sparkles, ArrowRight, Award, TrendingUp, Star, ShieldCheck, CircleCheck as CheckCircle2, ChevronRight, Building, Check, Clock } from "lucide-react";
 import InteractiveLocations from "../components/InteractiveLocations";
 
 interface HomeViewProps {
@@ -27,9 +27,9 @@ export default function HomeView({ onNavigate }: HomeViewProps) {
   };
 
   const heroImages = [
-    "/src/assets/images/gurgaon_open_workspace_1779398526846.png",
-    "/src/assets/images/gurgaon_meeting_room_1779398546797.png",
-    "/src/assets/images/gurgaon_dedicated_desks_1779398569488.png"
+    new URL("../assets/images/gurgaon_open_workspace_1779398526846.png", import.meta.url).href,
+    new URL("../assets/images/gurgaon_meeting_room_1779398546797.png", import.meta.url).href,
+    new URL("../assets/images/gurgaon_dedicated_desks_1779398569488.png", import.meta.url).href,
   ];
 
   React.useEffect(() => {

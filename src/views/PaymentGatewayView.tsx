@@ -1,19 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { 
-  CreditCard, 
-  Building, 
-  ShieldCheck, 
-  CheckCircle2, 
-  RefreshCw, 
-  Smartphone, 
-  AlertCircle, 
-  FileText, 
-  ArrowLeft, 
-  ArrowRight, 
-  Lock,
-  Sparkles,
-  Info
-} from "lucide-react";
+import { CreditCard, Building, ShieldCheck, CircleCheck as CheckCircle2, RefreshCw, Smartphone, CircleAlert as AlertCircle, FileText, ArrowLeft, ArrowRight, Lock, Sparkles, Info } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface PaymentPlan {
